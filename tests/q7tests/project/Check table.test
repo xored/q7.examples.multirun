@@ -1,0 +1,21 @@
+--- Q7 testcase ---
+Format-Version: 1.0
+Q7-vendor: www.xored.com/q7
+Element-Name: Check table
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _31Y5EKtBEeKvK6uTCBSXFg
+Q7-Runtime-Version: 1.3.0.201303220453
+Save-Time: 4/22/13 6:44 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Sample View" | get-table | get-property itemCount | equals 3 | verify-true
+get-view "Sample View" | get-table | select One
+get-view "Sample View" | get-table | select Two
+get-view "Sample View" | get-table | select Three
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

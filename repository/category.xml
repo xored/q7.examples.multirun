@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.sample.view_1.0.0.qualifier.jar" id="org.eclipse.sample.view" version="1.0.0.qualifier">
+      <category name="samples"/>
+   </feature>
+   <category-def name="samples" label="Samples"/>
+</site>
